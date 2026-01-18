@@ -29,7 +29,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <nav className="p-4 border-b flex justify-between items-center font-[family-name:var(--font-geist-sans)]">
-          <Link href="/" className="text-xl font-bold"></Link>
+          <Link href="/" className="text-xl font-bold">Home</Link>
           <div className="flex gap-4">
             <Link href="/consumer" className="hover:underline">Consumer</Link>
             <Link href="/staff" className="hover:underline">Staff</Link>
